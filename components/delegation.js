@@ -7,7 +7,7 @@ const Base = {
     this.text = text
     this.message = message
 	},
-};
+}
 
 const DangerButton = Object.create( Base )
 

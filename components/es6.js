@@ -9,7 +9,7 @@ class Base {
 
 class StandardFooter extends Base {
 	constructor(height, text, background = '#f5f5f5') {
-		super( height, text );
+		super( height, text )
     this.background = background
   }
   
