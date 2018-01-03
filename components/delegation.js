@@ -11,7 +11,7 @@ const Base = {
 
 const DangerButton = Object.create( Base )
 
-DangerButton.create = function( width, height, text, message, background = 'red'){
+DangerButton.render = function( width, height, text, message, background = 'red'){
   return {
     init: this.init,
     oninit: function (vnode) {
