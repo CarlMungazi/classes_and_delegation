@@ -1,5 +1,5 @@
 # classes_and_delegation
-A very rudimentary comparison of class simulation and prototypal inheritance in JS. Framework of choice is Mithril.js
+A very rudimentary comparison of class simulation and prototypal inheritance in JS. Framework of choice is [Mithril.js](https://mithril.js.org/)
 
 ### components/oops.js
 Follows the ES5 way of simulating class-like behaviour in JavaScript. A parent class is created via a function and then extended by a child class through another function. You then instanstiate it using the `new` keyword.
