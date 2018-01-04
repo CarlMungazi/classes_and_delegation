@@ -9,3 +9,9 @@ Uses ES6 classes to do the job. A parent class is created and then extended by a
 
 ### components/delegation.js
 Does not simulate class-like behaviour. Instead, it relies on JavaScript\'s prototypal inheritance feature to link objects through `Object.create()`
+
+### installation
+1. Clone the repository
+2. npm install
+3. npm start
+4. open the 'index.html' file in Chrome.

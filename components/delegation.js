@@ -17,7 +17,6 @@ DangerButton.render = function( width, height, text, message, background = 'red'
     oninit: function (vnode) {
       vnode.state.init( width, height, text, message )
       this.background = background
-      console.log(this)
 
     },
     view: function (vnode) {
